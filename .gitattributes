@@ -1,0 +1,2 @@
+*.json filter=lfs diff=lfs merge=lfs -text
+public/Met/Data[[:space:]]Project[[:space:]]-[[:space:]]Met/garbage/artworks.json filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,36 @@
+body {
+    font-family: 'GothicFont', sans-serif;
+    background-image: url(./Forest.png); /* Replace 'your-image.jpg' with the actual image file path */
+    background-size: cover; /* Adjust as needed */
+    background-attachment: fixed; /* Optional, makes the background fixed */
+    background-repeat: no-repeat; /* Prevents background image from repeating */
+    background-position: center; /* Centers the background image */
+    margin: 0;
+    overflow: hidden;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust as needed */
+}
+
+#header {
+margin: auto;
+    width: 80vw;
+    height: auto;
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust as needed */
+}
+
+video {
+    width: 100vw;
+    height: calc(100vh - 50px); /* Subtract header height */
+    cursor: pointer;
+}
